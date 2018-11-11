@@ -47,7 +47,12 @@ header {
 }
 .content .first .orca {
 }
-.content .first .phish {
+.content .first .phish .image-content {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png);
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
 }
 .content .first .earth {
 }
