@@ -1,0 +1,57 @@
+body {
+  marigin: 0;
+  font-family: "Georgia", serif;
+  font-size: 17px;
+  color: black;
+}
+a {
+  color: black;
+}
+header {
+  display: flex;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+.logo {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+  color: MediumAquaMarine;
+}
+.logo img {
+  padding-right: 15px;
+}
+.content {
+  display: flex;
+  border: 1px black;
+}
+.content .first {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  width: 630px;
+}
+.content .second {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  width: 300px;
+}
+.content .third {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid black;
+  width: 240px;
+}
+.content .first .orca {
+}
+.content .first .phish {
+}
+.content .first .earth {
+}
+.content .first .burger {
+}
+.content .first .memory {
+}
